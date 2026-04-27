@@ -1,0 +1,15 @@
+export interface Product {
+    id: string;
+    name: string;
+    category: string;
+    price: number;
+    image: string;
+    description: string;
+    htmlDescription: string;
+}
+
+export const products: Product[] = [
+    { id: '1', name: 'MK18 SOPMOD Block II', category: 'Airsoft', price: 29.99, image: 'https://picsum.photos/seed/mk18/400/400', description: 'High-performance printable STL files optimized for tactical realism.', htmlDescription: '<h3>Product Features</h3><ul><li>CNC Machine Tolerances</li><li>Tactical Grade Material</li><li>Ready for Assembly</li></ul><p>The MK18 is designed for those who demand the highest level of realism.</p>' },
+    { id: '2', name: 'Tactical Stock Adapter', category: 'Training', price: 14.99, image: 'https://picsum.photos/seed/stock/400/400', description: 'Lightweight, durable adapter for custom stock setups.', htmlDescription: '<h3>Durability Guaranteed</h3><p>Built from high-impact polymers.</p>' },
+    { id: '3', name: 'Precision Sight Mount', category: 'Industry', price: 19.99, image: 'https://picsum.photos/seed/sight/400/400', description: 'Precision CNC-machined aesthetic for tactical sights.', htmlDescription: '<h3>Precision Engineered</h3><p>Mount your sights with total confidence.</p>' },
+];
